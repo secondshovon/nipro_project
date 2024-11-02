@@ -1,0 +1,21 @@
+----------------font family---------------
+
+roboto-400, 500
+font-family: "Roboto", sans-serif;
+
+lato-400, 500, 700
+font-family: "Lato", sans-serif;
+
+-------------------color---------------------
+
+dark: #333333
+ash: #8e8e8e
+white: #ffffff
+
+-------------------------------------header
+
+			xxl-xl-lg         md          sm/col
+padding(t/b)
+
+
+

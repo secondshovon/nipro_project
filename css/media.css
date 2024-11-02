@@ -1,0 +1,642 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+header{
+	padding: 5px 0;
+}
+.h_logo{
+	font-size: 25px;
+}
+.menu ul li a{
+	padding-top: 10px !important;
+}
+.btn_search {
+    padding-left: 40px;
+}
+.btn_dd{
+	width: 220px;
+}
+.btn_dd[data-bs-popper] {
+    top: -25%;
+    left: 75px;
+}
+
+/*banner start*/
+.b_slider{
+	margin: 80px 0 40px;
+}
+
+.b_slider h1{
+	font-size: 27px;
+}
+
+.b_slider p{
+	margin: 30px 0;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.btn_c{
+	width: 160px;
+	display: inline-flex;
+	/*display:inline-flex; / margin: 0 auto; 
+	jekono ekta dilei button center e chole asbe*/
+}
+
+.b_slider, .slider_btn{
+	text-align: center;
+}
+
+/*welcome start*/
+
+.c_shape {
+    margin: 15px auto 15px auto;
+    height: 45px;
+}
+.c_title h1 {
+    font-size: 25px;
+}
+.w_p {
+    line-height: 24px;
+}
+
+/*service start*/
+
+.service{
+	padding: 0 0 60px;
+}
+
+.s_item {
+    margin: 60px 0 0;
+}
+.s_h2{
+	margin: 0;
+}
+.s_item hr {
+    margin: 10px auto;
+}
+.s_p {
+    line-height: 22px;
+}
+.s_item a {
+    margin: 10px 0 5px 0;
+}
+
+/*about start*/
+
+.about{
+	padding: 0 0 60px;
+}
+.a_text{
+	margin: 0;
+}
+.a_text, .a_btn{
+	text-align: center;
+}
+.a_h1{
+	margin: 40px 0 0;
+}
+.a_p1{
+	margin: 20px 0;
+}
+.a_btn{
+	display: inline-flex;
+}
+.a_p1, .a_p2{
+	line-height: 24px;
+}
+
+/*portfolio start*/
+
+.portfolio{
+	padding: 0 0 60px;
+}
+
+.c_menu{
+	margin: 30px 0 0;
+}
+
+/*creative start*/
+
+.creative{
+	padding: 0 0 60px;
+}
+
+.cr_item {
+    margin: 40px 0 0;
+    text-align: center;
+} 
+.cr_h2{
+	font-size: 16px;
+}
+
+.cr_p{
+	margin: 10px 0;
+	line-height: 24px;
+}   
+
+
+/*member start*/
+.member{
+	padding: 0 0 60px;
+}
+.m_item{
+	margin: 40px 0 0;
+}
+
+/*pricing start*/
+.pricing{
+	padding: 0 0 60px;
+}
+.p_item{
+	margin: 45px 0 0;
+	text-align: center;
+}
+.p_h2{
+	left: 50%;
+	transform: translateX(-50%);
+}
+.p_p{
+	margin: 15px 0;
+}
+.p_list ul li p {
+    line-height: 35px;
+}
+.p_item a{
+	margin: 20px auto 0;
+	width: 55%;
+}
+
+/*purchase start*/
+.purchase{
+	margin: 0 0 60px;
+}
+.pu_content{
+	text-align: center;
+}
+.pu_h2{
+	margin: 0 0 20px;
+	font-size: 15px;
+}
+
+.pu_btn a{
+	width: 130px;
+}
+
+/*slider start*/
+.s2_text{
+	text-align: center;
+}
+.s2_p1 {
+    margin: 0;
+}
+.s2_p2 {
+    margin: 15px 0;
+    line-height: 24px;
+}
+.s2_p3 {
+    line-height: 24px;
+}
+.s2_btn{
+	padding: 0;
+	margin: 20px auto 0 auto;
+	flex-direction: row;
+}
+.prev_btn{
+	writing-mode: horizontal-tb;
+}
+.next_btn{
+	writing-mode: horizontal-tb;
+}
+.s_shape_div{
+	writing-mode: horizontal-tb;
+}
+
+/*contact start*/
+.contact{
+	padding: 0 10px;
+}
+.form_title{
+	font-size: 25px;
+	width: 58%;
+}
+.contact_btn a{
+	display: flex;
+}
+
+/*footer start*/
+.f_shape {
+    margin: 0px 5px;
+}
+.f_p{
+	margin: 35px 0;
+}
+.footer_bottom{
+	margin-top: 60px;
+}
+.f_social a i{
+	margin-right: 5px;
+	padding: 5px 8px;
+}
+.fb_content{
+	padding: 0 0 20px;
+}
+.fl_p{
+	padding: 12px 0 10px 0;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+header{
+	padding: 5px 0;
+}
+.h_logo{
+	font-size: 30px;
+}
+.menu ul li a{
+	padding-top: 10px !important;
+}
+.btn_search {
+    padding-left: 40px;
+}
+.btn_dd{
+	width: 250px;
+}
+.btn_dd[data-bs-popper] {
+    top: -25%;
+    left: 110px;
+}
+
+/*banner start*/
+.b_slider{
+	margin: 80px 0 80px;
+}
+
+.b_slider h1{
+	font-size: 35px;
+}
+
+.b_slider p{
+	margin: 30px 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+.btn_c{
+	width: 160px;
+	display: inline-flex;
+}
+.b_slider, .slider_btn{
+	text-align: center;
+}
+
+
+/*welcome start*/
+.c_shape{
+	margin: 15px auto 15px auto;
+}
+.w_p {
+    line-height: 24px;
+}
+
+/*service start*/
+
+.service{
+	padding: 0 0 60px;
+}
+
+.s_item{
+	margin: 50px 0 0;
+}
+.s_h2{
+	margin: 0;
+}
+.s_item hr {
+    margin: 10px auto;
+}
+.s_p {
+    line-height: 24px;
+}
+.s_item a {
+    margin: 10px 0 5px 0;
+}
+
+/*about start*/
+
+.about{
+	padding: 0 0 60px;
+}
+.a_img{
+	margin: 0 60px;
+}
+.a_text{
+	margin: 0;
+}
+.a_text, .a_btn{
+	text-align: center;
+}
+.a_h1{
+	margin: 40px 0 0;
+}
+.a_p1{
+	margin: 20px 0;
+}
+.a_btn{
+	display: inline-flex;
+}
+.a_p1, .a_p2{
+	line-height: 24px;
+}
+
+/*portfolio start*/
+
+.portfolio{
+	padding: 0 0 60px;
+}
+
+.c_menu {
+    margin: 30px 0 0;
+}
+
+/*creative start*/
+
+.creative{
+	padding: 0 0 60px;
+}
+
+.cr_item {
+    margin: 40px 0 0;
+}    
+
+.cr_icon i {
+    font-size: 40px;
+}
+.cr_h2{
+	font-size: 16px;
+}
+.cr_p{
+	margin: 20px 0;
+	line-height: 24px;
+}
+
+/*member start*/
+
+.member{
+	padding: 0 0 60px;
+}
+.m_item{
+	margin: 40px 0 0;
+}  
+
+/*pricing start*/
+.pricing{
+	padding: 0 0 60px;
+}
+
+.p_item{
+	margin: 60px 0 0;
+}
+.p_p{
+	margin: 15px 0;
+}
+.p_list ul li p {
+    line-height: 35px;
+}
+
+/*purchase start*/
+.purchase{
+	margin: 0 0 60px;
+}
+.pu_content{
+	text-align: center;
+}
+.pu_h2{
+	margin: 0 0 15px;
+	font-size: 16px;
+}
+.pu_btn a{
+	width: 140px;
+}
+
+/*slider start*/
+.s2_p1 {
+    margin: 5px 0;
+}
+.s2_p2 {
+    margin: 15px 0;
+    line-height: 24px;
+}
+.s2_p3 {
+    line-height: 24px;
+}
+.s2_btn{
+	padding: 0;
+	width: 70%;
+	margin: 20px auto 0 auto;
+	flex-direction: row;
+}
+.prev_btn{
+	writing-mode: horizontal-tb;
+}
+.next_btn{
+	writing-mode: horizontal-tb;
+}
+.s_shape_div{
+	writing-mode: horizontal-tb;
+}
+
+/*contact start*/
+.contact{
+	padding: 0 0 60px;
+}
+.form_title{
+	width: 40%;
+}
+.contact_btn a{
+	display: flex;
+}
+
+/*footer start*/
+.f_p{
+	margin: 35px 0;
+}
+.footer_bottom{
+	margin-top: 60px;
+}
+.f_social a i{
+	padding: 5px 10px;
+}
+.fb_content{
+	padding: 0 0 20px;
+}
+.fl_p{
+	padding: 15px 0 7px 0;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.h_logo{
+	font-size: 25px;
+}
+.menu ul li a{
+	padding-top: 10px !important;
+}
+.btn_search {
+    padding-left: 40px;
+}
+.btn_dd[data-bs-popper] {
+    top: -30%;
+    left: 110px;
+}
+
+/*banner start*/
+.b_slider{
+	margin: 105px 0 100px;
+}
+
+.b_slider h1{
+	font-size: 45px;
+}
+
+.b_slider p{
+	margin: 30px 0;
+}
+
+/*welcome start*/
+.c_shape{
+	margin: 15px auto 15px auto;
+}
+.w_p{
+    line-height: 25px;
+}
+
+/*service start*/
+
+.service{
+	padding: 0 0 80px;
+}
+.s_item{
+	margin: 60px 0 0;
+}
+
+/*about start*/
+
+.about{
+	padding: 0 0 80px;
+}
+
+.a_img{
+	margin: 0 100px;
+}
+.a_text{
+	margin: 0;
+}
+.a_text, .a_btn{
+	text-align: center;
+}
+.a_h1{
+	margin: 40px 0 0;
+}
+.a_p1{
+	margin: 20px 0;
+}
+.a_btn{
+	display: inline-flex;
+}
+.a_p1, .a_p2{
+	line-height: 25px;
+}
+
+/*portfolio start*/
+
+.portfolio{
+	padding: 0 0 80px;
+}
+
+.c_menu {
+    margin: 30px 0 0;
+}
+
+/*creative start*/
+.creative{
+	padding: 0 0 80px;
+}
+.cr_item {
+    margin: 60px 0 0;
+}    
+.cr_p {
+    margin: 15px 0;
+} 
+
+/*member start*/
+.member{
+	padding: 0 0 80px;
+}
+.m_item{
+	margin: 60px 0 0;
+}
+
+/*pricing start*/
+
+.p_item{
+	margin: 60px 0 0;
+}
+
+/*slider start*/
+.prev_btn{
+	padding-top: 76px;
+}
+.next_btn{
+	padding-bottom: 76px;
+}
+
+/*contact start*/
+.contact{
+	padding: 0 0 80px;
+}
+.form_title{
+	width: 30%;
+}
+/*footer start*/
+.f_p{
+	margin: 35px 0;
+}
+.footer_bottom{
+	margin-top: 80px;
+}
+.f_social a i{
+	padding: 5px 10px;
+}
+.fb_content{
+	padding: 0 0 20px;
+}
+.fl_p{
+	padding: 15px 0 7px 0;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*service start*/
+.s_item a {
+    margin: 40px 0 20px 0;
+}
+
